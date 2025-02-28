@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@heroicons/vue": "^2.2.0",
+    "@playwright/experimental-ct-vue": "^1.50.1",
     "@tailwindcss/vite": "^4.0.9",
     "@vueuse/core": "^12.7.0",
     "@vueuse/motion": "^2.2.6",

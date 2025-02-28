@@ -1,5 +1,6 @@
 import process from 'node:process'
 import { defineConfig, devices } from '@playwright/test'
+import vue from '@vitejs/plugin-vue';
 
 /**
  * Read environment variables from file.
@@ -41,6 +42,7 @@ export default defineConfig({
 
     /* Only on CI systems run the tests headless */
     headless: !!process.env.CI,
+    browserName: 'chromium', // Default browser for testing
   },
 
   /* Configure projects for major browsers */
